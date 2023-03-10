@@ -22,8 +22,8 @@ export class AppController {
   }
 
   @Delete()
-  deleteRooms(roomNumber: number): Rooms[] { 
-    return this.appService.deleteRooms(roomNumber);
+  deleteRooms(roomNum: number): Rooms[] { 
+    return this.appService.deleteRooms(roomNum);
   }
 
 }

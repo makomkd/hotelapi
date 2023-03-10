@@ -5,23 +5,23 @@ export interface Room {
 }
 
 export interface Rooms {
-    roomNumber: number;
+    roomNum: number;
     roomType: string;
     amenities: string;
     price: number;
     photos: string;
-    checkinTime: Date;
-    checkoutTime: Date;
+    checkInTime: Date;
+    checkOutTime: Date;
     rating: number;
 }
 
 export class RoomsDTO {
-    roomNumber?: number;
+    roomNum?: number;
     roomType: string;
     amenities: string;
     price: number;
     photos: string;
-    checkinTime: Date;
-    checkoutTime: Date;
+    checkInTime: Date;
+    checkOutTime: Date;
     rating: number;
 }
